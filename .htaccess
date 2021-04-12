@@ -1,0 +1,25 @@
+#This Apache config file was created by Duplicator Installer on 2021-03-30 21:45:17.
+#The original can be found in archived file with the name .htaccess__[HASH]
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+# BEGIN ShortPixelWebp
+# Les directives (lignes) entre « BEGIN ShortPixelWebp » et « END ShortPixelWebp » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+
+# END ShortPixelWebp
+# BEGIN FRedirect_ErrorDocument
+# Les directives (lignes) entre « BEGIN FRedirect_ErrorDocument » et « END FRedirect_ErrorDocument » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+ErrorDocument 404 /index.php?error=404
+# END FRedirect_ErrorDocument

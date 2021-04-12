@@ -1,0 +1,11 @@
+				@font-face {
+					font-family: 'century-gothic-std';
+					src: url('/wp-content/uploads/useanyfont/2657Century-Gothic-std.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/2657Century-Gothic-std.woff') format('woff');
+				}
+
+				.century-gothic-std{font-family: 'century-gothic-std' !important;}
+
+				.et_gf_century-gothic-std{background:none !important;font-family:century-gothic-std;text-indent:0 !important;font-size:25px;}
+
+		

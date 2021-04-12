@@ -1,0 +1,68 @@
+/*
+ Theme Name:   OceanWP Child
+ Theme URI:    https://localhost.com
+ Description:  Thème enfant basé sur OceanWP
+ Author:       jdevuono
+ Author URI:   https://jdevuono.com
+ Template:     oceanwp
+ Version:      1.0.0
+*/
+
+body{
+	font-family: "Century Gothic Std", sans-serif;
+}
+
+#site-header-inner{
+	width:70%;
+}
+
+@media (max-width: 767px) {
+	#site-header-inner{
+		width:100% !important;
+	}
+	#breadcrumbs{
+		margin-left: 6% !important;
+	}
+}
+
+#home-background{
+	backdrop-filter: brightness(70%);
+}
+
+#breadcrumbs{
+	margin-left:15%;
+}
+
+.page-id-14 #breadcrumbs {
+    display:none;
+}
+
+.attachment-yarpp-thumbnail{
+	object-fit: cover;
+	border-radius: 50% !important;
+}
+
+.yarpp-thumbnail-title{
+	text-align:center;
+}
+
+
+.login h1 a{
+	height:110px;
+}
+
+.eael-entry-media{
+	max-height: 170px;
+}
+
+@media (max-width: 767px) {
+	.elementor-col-33{
+		width: 33% !important;
+	}
+	.elementor-text-editor, .elementor-widget-button{
+		text-align: center !important;
+	}
+}
+
+.elementor
+bu
