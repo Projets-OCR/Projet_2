@@ -55,7 +55,7 @@ body{
 	max-height: 170px;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 767px) {
 	.elementor-col-33{
 		width: 33% !important;
 	}
@@ -66,4 +66,8 @@ body{
 
 .elementor-button{
 	background-color: #a2907c !important;
+}
+
+.elementor-widget-wp-widget-yarpp_widget{
+	margin-bottom:15px;
 }
